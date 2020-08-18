@@ -31,6 +31,8 @@ $(document).ready(function () {
   // timeblock is color coded to indicate whether it is in the past, present, or future
   $(".textarea").each(function (i) {
     let currentTime = moment().hours();
+    console.log(i);
+    console.log(currentTime);
     if (currentTime === i + 9) {
       $(this).addClass("present");
     } else if (currentTime > i + 9) {
