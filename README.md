@@ -2,6 +2,11 @@
 
 This is a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
+
+The following animation demonstrates the application functionality:
+
+![day planner demo](./Assets/05-Planner.png)
+
 ## User Story
 
 ```
@@ -27,7 +32,3 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-Planner.png)
